@@ -1,0 +1,59 @@
+.header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+}
+.a{
+    text-decoration: none;
+}
+.nav{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav,
+.nav_item{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_item{
+    column-gap: 25px;
+}
+.navlogo,
+.button,
+.nav_link{
+    color: azure;
+}
+.button{
+    padding: 6px 24px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.navlogo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav_link:hover{
+    color: rgb(8, 5, 7);
+}
+.nav_link{
+    font-size: 15px;
+    font-weight: bold;
+}
+.button:active{
+    transform: scale(0.98);
+}
+.home{
+    position: relative;
+    height: 100vh;
+   background-color: blueviolet;
+    background-color: url("man.png");
+    background-size: cover;
+    background-position: center;
+}

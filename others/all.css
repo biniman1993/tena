@@ -1,0 +1,128 @@
+.dasbored {
+    display: flex;
+    flex-direction: row;
+}
+
+.body1 {
+    background-color: rgb(236, 236, 236);
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 250px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: black 2px, 2px, 2px, 2px;
+    align-items: start;
+    padding-top: 40px;
+    box-shadow: inset 4px 4px 4px 4px rgba(0, 0, 0, 0.05);
+
+}
+
+.row2 {
+    flex: 1;
+    background-color: rgb(223, 221, 224);
+}
+
+.col1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+
+.col1:hover {
+    width: 150px;
+    background-color: rgb(247, 240, 240);
+    box-shadow: 1px 1px 1px 1px rgb(190, 190, 190);
+}
+
+.dasbored {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 900;
+}
+
+.imadash {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.row2text {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.box {
+    height: 400px;
+    margin-left:10px;
+    border-radius: 10px;
+    width: 1030px;
+    background-color: rgb(245, 242, 242);
+    box-shadow: inset 4px 3px 4px 4px rgba(105, 105, 105, 0.05);
+}
+.box1{
+    margin: 20px;
+    padding: 20px;
+    
+}
+.tex1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tex2 {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    padding: 4px;
+
+}
+
+.tex3 {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4px;
+    padding: 4px;
+
+}
+
+.txt21 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.line {
+    border-top: 0.7px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(3, 3, 3);
+
+
+}
+.line2 {
+    border-top: 0.7px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(129, 127, 127);
+    margin-top: 100px;
+    margin-bottom: 20px;
+    
+
+}
+.copyw{
+    margin-left: 700px;
+    align-items: end;
+}
